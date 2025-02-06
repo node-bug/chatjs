@@ -1,29 +1,27 @@
 {
-  "name": "@nodebug/boilerplatejs",
+  "name": "@nodebug/chatjs",
   "version": "1.0.0",
   "author": {
     "name": "Node Bug",
     "email": "nodebug@outlook.com"
   },
   "bugs": {
-    "url": "https://github.com/node-bug/boilerplatejs/issues"
+    "url": "https://github.com/node-bug/chatjs/issues"
   },
   "dependencies": {
     "@nodebug/config": "2.1.0",
     "@nodebug/logger": "1.1.0"
   },
-  "description": "boiler plate for nodejs projects",
-  "homepage": "https://github.com/node-bug/boilerplatejs#readme",
+  "description": "chat project for chatting with documentation",
+  "homepage": "https://github.com/node-bug/chatjs#readme",
   "keywords": [
-    "node",
-    "npm",
-    "boiler",
-    "plate"
+    "chat",
+    "documentation"
   ],
   "license": "MPL-2.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/node-bug/boilerplatejs.git"
+    "url": "git+https://github.com/node-bug/chatjs.git"
   },
   "scripts": {
     "test": "npm run test"
