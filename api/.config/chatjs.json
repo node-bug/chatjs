@@ -1,0 +1,9 @@
+{
+    "PORT": 5051,
+    "LLM_BASE_URL": "http://10.11.10.106:11434",
+    "EMBEDDING_MODEL": "mxbai-embed-large",
+    "MODEL": "phi4:14b-q8_0",
+    "CHROMA_COLLECTION_NAME": "mycollectionname",
+    "CHROMA_URL": "http://10.11.10.106:8000",
+    "RETRIEVER_K": 10
+}

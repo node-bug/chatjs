@@ -1,6 +1,6 @@
 {
-  "name": "@nodebug/chatjs",
-  "version": "1.0.0",
+  "name": "@nodebug/chatjs-api",
+  "version": "0.1.0",
   "author": {
     "name": "Node Bug",
     "email": "nodebug@outlook.com"
@@ -9,15 +9,22 @@
     "url": "https://github.com/node-bug/chatjs/issues"
   },
   "dependencies": {
+    "@langchain/community": "^0.3.29",
     "@langchain/core": "^0.3.39",
+    "@langchain/ollama": "^0.2.0",
+    "@langchain/openai": "^0.4.3",
     "@nodebug/config": "2.1.0",
-    "@nodebug/logger": "1.1.0"
+    "@nodebug/logger": "1.1.0",
+    "body-parser": "^1.20.3",
+    "chromadb": "^1.10.4",
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
   },
   "description": "chat project for chatting with documentation",
   "homepage": "https://github.com/node-bug/chatjs#readme",
   "keywords": [
     "chat",
-    "documentation"
+    "express"
   ],
   "license": "MPL-2.0",
   "repository": {
@@ -25,7 +32,7 @@
     "url": "git+https://github.com/node-bug/chatjs.git"
   },
   "scripts": {
-    "test": "npm run test"
+    "server": "node server.js"
   },
   "devDependencies": {
     "eslint": "8.45.0",

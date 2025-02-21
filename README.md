@@ -1,1 +1,5 @@
-boiler plate for my node js projects
+#### Start api server
+```npm server.js```
+
+#### Start react frontend
+```npm start```

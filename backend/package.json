@@ -9,9 +9,15 @@
     "url": "https://github.com/node-bug/chatjs/issues"
   },
   "dependencies": {
-    "@langchain/core": "^0.3.39",
+    "@langchain/community": "^0.3.30",
+    "@langchain/core": "^0.3.40",
+    "@langchain/ollama": "^0.1.5",
     "@nodebug/config": "2.1.0",
-    "@nodebug/logger": "1.1.0"
+    "@nodebug/logger": "1.1.0",
+    "chromadb": "^1.10.4",
+    "html-to-text": "^9.0.5",
+    "jsdom": "^26.0.0",
+    "pg": "^8.13.1"
   },
   "description": "chat project for chatting with documentation",
   "homepage": "https://github.com/node-bug/chatjs#readme",
@@ -24,8 +30,9 @@
     "type": "git",
     "url": "git+https://github.com/node-bug/chatjs.git"
   },
+  "main": "./index.js",
   "scripts": {
-    "test": "npm run test"
+    "injest": "node ./injest.js"
   },
   "devDependencies": {
     "eslint": "8.45.0",

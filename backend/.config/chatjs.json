@@ -1,0 +1,12 @@
+{
+    "FORCE_UPDATE": false,
+    "LLM_BASE_URL": "http://10.11.10.106:11434",
+    "EMBEDDING_MODEL": "mxbai-embed-large",
+    "COLLECTION_NAME": "mycollectionname",
+    "CHROMA_URL": "http://10.11.10.106:8000",
+    "DB_HOST": "10.11.10.106",
+    "DB_PORT":"5432",
+    "DB_USERNAME": "mypostgresusername",
+    "DB_PASSWORD": "mysecretpassword",
+    "DB_NAME": "mydbname"
+}
